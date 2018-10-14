@@ -6,6 +6,11 @@
 //  Copyright © 2018年 道道明明白白. All rights reserved.
 //
 
+//zs20181014 参考链接https://github.com/Jethuang/HDragImageView
+//可以将这个功能抽取出来   之后算坐标的时候 利用坐标系的转换 转换成相对于Window的坐标 进行统一化管理
+//CGRect rect = [self.superview convertRect:self.frame toView:[UIApplication sharedApplication].keyWindow];
+
+
 #import "ViewController.h"
 
 #define width (self.view.frame.size.width / 3.0 - 4)
